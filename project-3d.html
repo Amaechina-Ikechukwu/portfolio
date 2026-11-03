@@ -1,116 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aurora 3D Interactive Agency — Case Study</title>
-    <meta name="description" content="Case study of Aurora 3D WebGL Interactive Agency designed by Rafiq.">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
-                        serif: ['Instrument Serif', 'Playfair Display', 'serif'],
-                    },
-                    colors: {
-                        peach: {
-                            50: '#FFF7F5', 100: '#FFECE5', 200: '#FFD3C4', 300: '#FFB199',
-                            400: '#FF8A66', 500: '#FF6438', 600: '#E64619', 900: '#5C1704',
-                        }
-                    }
-                }
-            }
-        }
-    </script>
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <style>
-        .reveal-on-scroll { opacity: 0; transform: translateY(30px); transition: opacity 0.8s ease, transform 0.8s ease; }
-        .reveal-on-scroll.is-visible { opacity: 1; transform: translateY(0); }
-        .glass-nav { background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(16px); border: 1px solid rgba(230, 230, 230, 0.7); }
-    </style>
+    <title>Client work — Ikay</title>
+    <meta http-equiv="refresh" content="0; url=index.html#work-list">
+    <link rel="canonical" href="index.html#work-list">
 </head>
-<body class="bg-[#FAF9F6] text-neutral-900 font-sans antialiased selection:bg-peach-200">
-
-    <header class="fixed top-5 inset-x-0 z-50 flex justify-center px-4">
-        <nav id="main-navbar" class="glass-nav rounded-full px-4 py-2.5 flex items-center justify-between gap-3 sm:gap-6 shadow-lg shadow-neutral-900/5 transition-all duration-300 max-w-2xl w-full">
-            <a href="index.html" class="w-8 h-8 rounded-full bg-neutral-900 text-white font-bold flex items-center justify-center text-xs tracking-wider">R</a>
-            <div class="flex items-center gap-1 sm:gap-3 text-xs sm:text-sm font-medium text-neutral-600">
-                <a href="index.html" class="px-3 py-1.5 rounded-full hover:text-neutral-900 hover:bg-neutral-100 transition-all">Home</a>
-                <a href="projects.html" class="px-3 py-1.5 rounded-full bg-neutral-900 text-white font-semibold transition-all">Projects</a>
-                <a href="about.html" class="px-3 py-1.5 rounded-full hover:text-neutral-900 hover:bg-neutral-100 transition-all">About</a>
-                <a href="services.html" class="px-3 py-1.5 rounded-full hover:text-neutral-900 hover:bg-neutral-100 transition-all">Services</a>
-                <a href="contact.html" class="px-3 py-1.5 rounded-full hover:text-neutral-900 hover:bg-neutral-100 transition-all">Contact</a>
-            </div>
-            <a href="contact.html" class="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-semibold text-neutral-800 bg-neutral-100 hover:bg-neutral-200 rounded-full">Let's Talk</a>
-        </nav>
-    </header>
-
-    <section class="pt-36 pb-12 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
-        <a href="projects.html" class="inline-flex items-center gap-2 text-xs font-bold text-neutral-500 hover:text-neutral-900 mb-6">
-            <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to Projects
-        </a>
-
-        <div class="space-y-4">
-            <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-peach-600">
-                <span>WebGL & 3D Interactive</span> • <span>2024</span>
-            </div>
-            <h1 class="text-4xl sm:text-6xl font-semibold text-neutral-900 tracking-tight">
-                Aurora 3D Interactive <span class="font-serif italic font-normal text-peach-600">Agency</span>
-            </h1>
-            <p class="text-neutral-600 text-lg leading-relaxed">
-                An exploratory web experience powered by real-time 3D shaders, dynamic lighting physics, and fluid scroll-triggered camera motion.
-            </p>
-        </div>
-
-        <div class="mt-10 rounded-3xl overflow-hidden shadow-2xl border border-neutral-200 bg-neutral-900">
-            <img src="assets/images/project-3d.jpg" alt="Aurora 3D Interactive Agency" class="w-full h-auto object-cover">
-        </div>
-    </section>
-
-    <section class="py-12 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto space-y-16">
-        <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 p-6 rounded-2xl bg-white border border-neutral-200 shadow-sm">
-            <div>
-                <div class="text-xs text-neutral-400 font-bold uppercase">Role</div>
-                <div class="text-sm font-bold text-neutral-900 mt-1">Interactive Creative Dev</div>
-            </div>
-            <div>
-                <div class="text-xs text-neutral-400 font-bold uppercase">Award</div>
-                <div class="text-sm font-bold text-purple-600 mt-1">Awwwards SOTD</div>
-            </div>
-            <div>
-                <div class="text-xs text-neutral-400 font-bold uppercase">Session Time</div>
-                <div class="text-sm font-bold text-emerald-600 mt-1">4m 12s Avg</div>
-            </div>
-            <div>
-                <div class="text-xs text-neutral-400 font-bold uppercase">Lighthouse</div>
-                <div class="text-sm font-bold text-neutral-900 mt-1">98 / 100</div>
-            </div>
-        </div>
-
-        <div class="pt-8 border-t border-neutral-200 flex items-center justify-between">
-            <a href="project-fintech.html" class="text-xs font-bold text-neutral-500 hover:text-neutral-900">← Previous: Quantum Fintech</a>
-            <a href="projects.html" class="text-xs font-bold text-peach-600 hover:underline">All Projects →</a>
-        </div>
-    </section>
-
-    <footer class="py-10 border-t border-neutral-200 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-500">
-        <div>© 2026 Rafiq Portfolio. All rights reserved.</div>
-        <div class="flex items-center gap-6 text-neutral-700">
-            <a href="index.html" class="hover:text-peach-600">Home</a>
-            <a href="projects.html" class="hover:text-peach-600">Projects</a>
-            <a href="about.html" class="hover:text-peach-600">About</a>
-            <a href="contact.html" class="hover:text-peach-600">Contact</a>
-        </div>
-    </footer>
-
-    <script src="assets/js/app.js"></script>
-    <script>lucide.createIcons();</script>
+<body>
+    <p>Client work now lives on the <a href="index.html#work-list">home page</a>.</p>
 </body>
 </html>
