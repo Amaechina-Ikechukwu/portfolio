@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 170" width="170" height="170">
+  <title>Robinson March</title>
+  <g transform="translate(13 13)">
+  <rect x="1.25" y="1.25" width="141.5" height="141.5" fill="none" stroke="#1d1f20" stroke-width="2.5"/>
+  <path d="M-9.75 1.25h22M1.25 -9.75v22M131.75 1.25h22M142.75 -9.75v22M-9.75 142.75h22M1.25 131.75v22M131.75 142.75h22M142.75 131.75v22" stroke="#7f8a94" stroke-width="2.5"/>
+  <g transform="translate(22 27) scale(0.9)">
+    <path fill="#1d1f20" fill-rule="evenodd" d="M0 0H44L58 14V40L48 50L60 100H42L31 54H18V100H0Z M18 16V38H40V16Z"/>
+    <path fill="#5980a6" d="M64 40L96 0H112V100H94V31L64 68Z"/>
+  </g>
+  </g>
+</svg>

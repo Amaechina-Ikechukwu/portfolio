@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <title>Robinson March</title>
+  <rect width="64" height="64" fill="#f2f2f3"/>
+  <rect x="2.5" y="2.5" width="59" height="59" fill="none" stroke="#1d1f20" stroke-width="2"/>
+  <g transform="translate(11 15) scale(0.375)">
+    <path fill="#1d1f20" fill-rule="evenodd" d="M0 0H44L58 14V40L48 50L60 100H42L31 54H18V100H0Z M18 16V38H40V16Z"/>
+    <path fill="#5980a6" d="M64 40L96 0H112V100H94V31L64 68Z"/>
+  </g>
+</svg>
