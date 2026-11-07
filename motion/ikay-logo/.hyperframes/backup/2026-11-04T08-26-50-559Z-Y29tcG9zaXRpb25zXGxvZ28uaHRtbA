@@ -1,0 +1,244 @@
+<template>
+  <style>
+    @font-face {
+      font-family: "Barlow Condensed";
+      font-weight: 600;
+      src: url("assets/fonts/barlow-condensed-latin-600-normal.woff2") format("woff2");
+    }
+    @font-face {
+      font-family: "Barlow";
+      font-weight: 500;
+      src: url("assets/fonts/barlow-latin-500-normal.woff2") format("woff2");
+    }
+    #root {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      background: var(--ground);
+      color: var(--ink);
+      font-family: "Barlow", sans-serif;
+    }
+
+    /* Blueprint ground */
+    #lg-grid {
+      position: absolute;
+      inset: -80px;
+      background-image:
+        linear-gradient(to right, var(--grid) 1px, transparent 1px),
+        linear-gradient(to bottom, var(--grid) 1px, transparent 1px);
+      background-size: 80px 80px;
+      background-position: 40px 20px;
+      opacity: 0;
+    }
+    #lg-guides {
+      position: absolute;
+      inset: 0;
+      width: 1920px;
+      height: 1080px;
+    }
+    #lg-guides line {
+      stroke: var(--accent);
+      stroke-width: 1;
+      stroke-dasharray: 6 8;
+    }
+
+    /* The mark */
+    #lg-mark {
+      position: absolute;
+      left: 740px;
+      top: 320px;
+      width: 440px;
+      height: 440px;
+    }
+    #lg-frame {
+      position: absolute;
+      inset: 0;
+      width: 440px;
+      height: 440px;
+      overflow: visible;
+    }
+    #lg-frame rect {
+      fill: none;
+      stroke: var(--ink);
+      stroke-width: 6;
+    }
+    #lg-letters {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      font-family: "Barlow Condensed", sans-serif;
+      font-weight: 600;
+      font-size: 150px;
+      line-height: 1;
+    }
+    .lg-cell {
+      display: block;
+      overflow: hidden;
+      padding: 0 6px;
+    }
+    .lg-l {
+      display: block;
+    }
+    #lg-scan-box {
+      position: absolute;
+      inset: 3px;
+      overflow: hidden;
+    }
+    #lg-scan {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      height: 4px;
+      background: var(--accent);
+      box-shadow: 0 0 24px 4px var(--accent);
+      opacity: 0;
+    }
+    .lg-reg {
+      position: absolute;
+      width: 44px;
+      height: 44px;
+    }
+    .lg-reg::before,
+    .lg-reg::after {
+      content: "";
+      position: absolute;
+      background: var(--accent);
+    }
+    .lg-reg::before {
+      left: 21px;
+      top: 0;
+      width: 2px;
+      height: 44px;
+    }
+    .lg-reg::after {
+      top: 21px;
+      left: 0;
+      width: 44px;
+      height: 2px;
+    }
+    #lg-reg-tl { left: -40px; top: -40px; }
+    #lg-reg-tr { right: -40px; top: -40px; }
+    #lg-reg-bl { left: -40px; bottom: -40px; }
+    #lg-reg-br { right: -40px; bottom: -40px; }
+
+    .lg-note {
+      position: absolute;
+      font-size: 28px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent-ink);
+      white-space: nowrap;
+    }
+    #lg-note-fig { left: 0; top: -96px; }
+    #lg-note-dim { right: 0; bottom: -96px; }
+
+  </style>
+
+  <div data-hf-id="hf-7yb8" id="root" data-composition-id="logo" data-width="1920" data-height="1080">
+    <div data-hf-id="hf-p8jf" id="lg-grid"></div>
+
+    
+
+    <div data-hf-id="hf-1s2n" id="lg-mark" data-layout-allow-overflow="">
+      <svg data-hf-id="hf-8gwk" id="lg-frame" viewBox="0 0 440 440">
+        <rect data-hf-id="hf-vhg7" x="3" y="3" width="434" height="434" pathLength="100" />
+      </svg>
+      <div data-hf-id="hf-wga8" id="lg-scan-box"><div data-hf-id="hf-5njs" id="lg-scan"></div></div>
+      <div data-hf-id="hf-njme" id="lg-letters">
+        <span data-hf-id="hf-1umn" class="lg-cell"><span data-hf-id="hf-zec3" class="lg-l" id="lg-l1">I</span></span>
+        <span data-hf-id="hf-146n" class="lg-cell"><span data-hf-id="hf-58ko" class="lg-l" id="lg-l2">K</span></span>
+        <span data-hf-id="hf-0pvm" class="lg-cell"><span data-hf-id="hf-itbt" class="lg-l" id="lg-l3">A</span></span>
+        <span data-hf-id="hf-0bkl" class="lg-cell"><span data-hf-id="hf-lock" class="lg-l" id="lg-l4">Y</span></span>
+      </div>
+      <i data-hf-id="hf-54i7" class="lg-reg" id="lg-reg-tl"></i>
+      <i data-hf-id="hf-ieoh" class="lg-reg" id="lg-reg-tr"></i>
+      <i data-hf-id="hf-pvzt" class="lg-reg" id="lg-reg-bl"></i>
+      <i data-hf-id="hf-xomf" class="lg-reg" id="lg-reg-br"></i>
+      <span data-hf-id="hf-ywa2" class="lg-note" id="lg-note-fig">Fig. 01 — Mark</span>
+      <span data-hf-id="hf-kr37" class="lg-note" id="lg-note-dim">440 × 440</span>
+    </div>
+
+  </div>
+
+  <script>
+    const tl = gsap.timeline({ paused: true });
+
+    // 0.0 — blueprint ground and guide lines from the centre outward
+    tl.to("#lg-grid", { opacity: 1, duration: 0.8, ease: "power2.out" }, 0);
+    tl.to("#lg-grid", { x: -40, y: -24, duration: 5.5, ease: "none" }, 0);
+    ["#lg-gh1", "#lg-gh2", "#lg-gv1", "#lg-gv2"].forEach((id, i) => {
+      tl.fromTo(id, { opacity: 0 }, { opacity: 0.55, duration: 0.2 }, 0.15 + i * 0.06);
+    });
+                
+    // 0.5 — the square draws itself
+    tl.fromTo(
+      "#lg-frame rect",
+      { strokeDasharray: 100, strokeDashoffset: 100 },
+      { strokeDashoffset: 0, duration: 1.0, ease: "power2.inOut" },
+      0.5,
+    );
+
+    // 0.9 — registration marks fly in to the corners
+    const regFrom = {
+      "#lg-reg-tl": { x: -140, y: -140 },
+      "#lg-reg-tr": { x: 140, y: -140 },
+      "#lg-reg-bl": { x: -140, y: 140 },
+      "#lg-reg-br": { x: 140, y: 140 },
+    };
+    Object.entries(regFrom).forEach(([id, from], i) => {
+      tl.fromTo(
+        id,
+        { ...from, rotation: -90, opacity: 0 },
+        { x: 0, y: 0, rotation: 0, opacity: 1, duration: 0.7, ease: "expo.out" },
+        0.9 + i * 0.05,
+      );
+    });
+
+    // 1.35 — letters rise out of their cells, one frame-ish apart
+    tl.fromTo(
+      ".lg-l",
+      { yPercent: 110, filter: "blur(10px)" },
+      { yPercent: 0, filter: "blur(0px)", duration: 0.7, ease: "expo.out", stagger: 0.09 },
+      1.35,
+    );
+
+    // 1.8 — blueprint annotations
+    tl.fromTo(
+      ".lg-note",
+      { opacity: 0, filter: "blur(6px)" },
+      { opacity: 1, filter: "blur(0px)", duration: 0.25, ease: "power2.out", stagger: 0.1 },
+      1.8,
+    );
+
+    // 2.1 — scan line sweeps the mark; the frame flashes accent as it passes
+    tl.to("#lg-scan", { opacity: 1, duration: 0.1 }, 2.1);
+    tl.fromTo("#lg-scan", { y: -10 }, { y: 440, duration: 0.65, ease: "power2.inOut" }, 2.1);
+    tl.to("#lg-scan", { opacity: 0, duration: 0.12 }, 2.68);
+    tl.fromTo("#lg-frame rect", { stroke: "#1d1f20" }, { stroke: "#5980a6", duration: 0.2 }, 2.3);
+    tl.to("#lg-frame rect", { stroke: "#1d1f20", duration: 0.45, ease: "power2.out" }, 2.6);
+    tl.fromTo(
+      "#lg-l1, #lg-l3",
+      { color: "#1d1f20" },
+      { color: "#416180", duration: 0.25, ease: "power2.out" },
+      2.35,
+    );
+
+    // 3.0 — blueprint scaffolding clears and the mark settles
+    tl.to(["#lg-guides", ".lg-note"], { opacity: 0, duration: 0.25, ease: "power2.in" }, 3.0);
+    tl.to(".lg-reg", { scale: 0.4, opacity: 0, duration: 0.3, ease: "power3.in", stagger: 0.03 }, 3.0);
+    tl.fromTo(
+      "#lg-mark",
+      { x: 0, scale: 1 },
+      { x: 0, scale: 0.86, duration: 0.8, ease: "power3.inOut" },
+      3.05,
+    );
+    tl.to("#lg-grid", { opacity: 0.45, duration: 0.9, ease: "power2.inOut" }, 3.05);
+
+
+    window.__timelines["logo"] = tl;
+  </script>
+</template>

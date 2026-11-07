@@ -1,0 +1,154 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 2
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 1,
+    "findings": [
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 0.306,
+        "selector": "#lg-grid",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": -82.18,
+          "top": -81.31,
+          "right": 1157.82,
+          "bottom": 1998.69,
+          "width": 1240,
+          "height": 2080
+        },
+        "containerSelector": "#logo > div:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "left": 82.18,
+          "right": 77.82,
+          "top": 81.31,
+          "bottom": 78.69
+        },
+        "dataAttributes": {
+          "data-hf-id": "hf-p8jf"
+        },
+        "sourceFile": "compositions/logo.html",
+        "bbox": {
+          "x": -82.18,
+          "y": -81.31,
+          "width": 1240,
+          "height": 2080
+        },
+        "firstSeen": 0.306,
+        "lastSeen": 5.194,
+        "occurrences": 9,
+        "heldMs": 4888,
+        "times": [
+          0.306,
+          0.917,
+          1.528,
+          2.139,
+          2.75,
+          3.361,
+          3.972,
+          4.583,
+          5.194
+        ]
+      }
+    ],
+    "duration": 5.5,
+    "samples": [
+      0.306,
+      0.917,
+      1.528,
+      2.139,
+      2.75,
+      3.361,
+      3.972,
+      4.583,
+      5.194
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 1,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      0.306,
+      1.528,
+      2.75,
+      3.972,
+      5.194
+    ],
+    "checked": 22,
+    "passed": 22
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 44
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

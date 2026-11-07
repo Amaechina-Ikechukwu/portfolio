@@ -1,0 +1,229 @@
+{
+  "version": 1,
+  "historyId": "cf437a84-4415-486f-a9b9-c026357b2719",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "3bb22af1d0093dfb5a59d3cc884ee63d4e3b8b535d413a0e22139358339c01a6",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\cf437a84-4415-486f-a9b9-c026357b2719\\blobs\\3b\\3bb22af1d0093dfb5a59d3cc884ee63d4e3b8b535d413a0e22139358339c01a6"
+    },
+    "CLAUDE.md": {
+      "hash": "3bb22af1d0093dfb5a59d3cc884ee63d4e3b8b535d413a0e22139358339c01a6",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\cf437a84-4415-486f-a9b9-c026357b2719\\blobs\\3b\\3bb22af1d0093dfb5a59d3cc884ee63d4e3b8b535d413a0e22139358339c01a6"
+    },
+    "assets/fonts/barlow-condensed-latin-600-normal.woff2": {
+      "hash": "0b281bf2f4179c06ba68f0a427f2341287c41eacc2ce9d534c6f5c513ac633fb",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\cf437a84-4415-486f-a9b9-c026357b2719\\blobs\\0b\\0b281bf2f4179c06ba68f0a427f2341287c41eacc2ce9d534c6f5c513ac633fb"
+    },
+    "assets/fonts/barlow-latin-500-normal.woff2": {
+      "hash": "7c0597b1b0c771139c958982210f05b275993037f0f3ba20d7a9300a0741dc80",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\cf437a84-4415-486f-a9b9-c026357b2719\\blobs\\7c\\7c0597b1b0c771139c958982210f05b275993037f0f3ba20d7a9300a0741dc80"
+    },
+    "assets/sfx/chime.mp3": {
+      "hash": "74823b1b27703c56e0652db838f503c150ce9c2442d47d27430af3d5121d6d12",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\cf437a84-4415-486f-a9b9-c026357b2719\\blobs\\74\\74823b1b27703c56e0652db838f503c150ce9c2442d47d27430af3d5121d6d12"
+    },
+    "assets/sfx/click-soft.mp3": {
+      "hash": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\cf437a84-4415-486f-a9b9-c026357b2719\\blobs\\07\\075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d"
+    },
+    "assets/sfx/impact-bass-1.mp3": {
+      "hash": "634d5eda5eb7b501aca98393a64f3815eccf24157cd1d95df55aaec1b5000bd7",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\cf437a84-4415-486f-a9b9-c026357b2719\\blobs\\63\\634d5eda5eb7b501aca98393a64f3815eccf24157cd1d95df55aaec1b5000bd7"
+    },
+    "assets/sfx/riser.mp3": {
+      "hash": "d2f29d49f27dee7d3b25af22ffe5bebc39390cc5d5fb3b3e1c433499c77f3d1d",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\cf437a84-4415-486f-a9b9-c026357b2719\\blobs\\d2\\d2f29d49f27dee7d3b25af22ffe5bebc39390cc5d5fb3b3e1c433499c77f3d1d"
+    },
+    "assets/sfx/sparkle.mp3": {
+      "hash": "a66b2829a307bcb5b1f6551d7cdc72fe45bbe9a91abfb994d28db8d5e4e42ea8",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\cf437a84-4415-486f-a9b9-c026357b2719\\blobs\\a6\\a66b2829a307bcb5b1f6551d7cdc72fe45bbe9a91abfb994d28db8d5e4e42ea8"
+    },
+    "assets/sfx/whoosh-short.mp3": {
+      "hash": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\cf437a84-4415-486f-a9b9-c026357b2719\\blobs\\c2\\c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30"
+    },
+    "assets/sfx/whoosh.mp3": {
+      "hash": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\cf437a84-4415-486f-a9b9-c026357b2719\\blobs\\c2\\c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30"
+    },
+    "compositions/logo.html": {
+      "hash": "b1bb428503c85d93ac45f164d6a303124df65db4a142609e1614030251d86cb9",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\cf437a84-4415-486f-a9b9-c026357b2719\\blobs\\b1\\b1bb428503c85d93ac45f164d6a303124df65db4a142609e1614030251d86cb9"
+    },
+    "hyperframes.json": {
+      "hash": "35a6d4ea79ebe911f0d81705f7aace5d8ff0316b745b0311d56af50c9c237cb7",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\cf437a84-4415-486f-a9b9-c026357b2719\\blobs\\35\\35a6d4ea79ebe911f0d81705f7aace5d8ff0316b745b0311d56af50c9c237cb7"
+    },
+    "index.html": {
+      "hash": "9c50a2df36438eb493d35a7b43c96b1e4f7eb8a68c48bba3d3bb46077c5cb7f7",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\cf437a84-4415-486f-a9b9-c026357b2719\\blobs\\9c\\9c50a2df36438eb493d35a7b43c96b1e4f7eb8a68c48bba3d3bb46077c5cb7f7"
+    },
+    "meta.json": {
+      "hash": "f52c9c609705284362489fbe3da8740f8edbc49a0330f7bb61dd20f494e040b1",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\cf437a84-4415-486f-a9b9-c026357b2719\\blobs\\f5\\f52c9c609705284362489fbe3da8740f8edbc49a0330f7bb61dd20f494e040b1"
+    },
+    "package.json": {
+      "hash": "69703ae546fd49e8d8f6b5c89bbc6897d54029851aaadeaa0dfe746429cb4ecb",
+      "content": "C:\\Users\\User\\.cache\\hyperframes\\history\\cf437a84-4415-486f-a9b9-c026357b2719\\blobs\\69\\69703ae546fd49e8d8f6b5c89bbc6897d54029851aaadeaa0dfe746429cb4ecb"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "203c8829-13bb-4d81-8858-318b66ea9c77"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "id": "203c8829-13bb-4d81-8858-318b66ea9c77",
+        "scope": "project",
+        "report": "C:\\Users\\User\\March\\Work\\Web\\ikay-portfolio\\motion\\ikay-logo-tiktok\\.hyperframes\\artifacts\\checks\\203c8829-13bb-4d81-8858-318b66ea9c77.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "contrast": true,
+            "strict": false,
+            "snapshots": false,
+            "browserGpuMode": "auto"
+          }
+        },
+        "createdAt": 1793780658215,
+        "contentHash": "be3a99980c9c33bb68b6db453cb798b093e312447696506a0ba9d936952c316a",
+        "revision": null,
+        "inputFingerprint": "21b75b89f069603a1fb06d658e7b09978a17574fc9125c8e2af38c3f517d33a4",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": {
+      "revision": null,
+      "id": "089918c0-a3a1-4f1d-9842-a686894431dc-4"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "scope": "full",
+        "id": "089918c0-a3a1-4f1d-9842-a686894431dc-0",
+        "image": "C:\\Users\\User\\March\\Work\\Web\\ikay-portfolio\\motion\\ikay-logo-tiktok\\.hyperframes\\artifacts\\snapshots\\131f9093-a054-4333-895d-d21b2c641528\\frame-00-at-0.6s.png",
+        "time": 0.6,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793780670473,
+        "contentHash": "e51cbdf96f9ef86cfb04c1a50c1a0aaa64d878df781a15ebc3442c4beb57df7f",
+        "revision": null,
+        "inputFingerprint": "21b75b89f069603a1fb06d658e7b09978a17574fc9125c8e2af38c3f517d33a4",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "089918c0-a3a1-4f1d-9842-a686894431dc-1",
+        "image": "C:\\Users\\User\\March\\Work\\Web\\ikay-portfolio\\motion\\ikay-logo-tiktok\\.hyperframes\\artifacts\\snapshots\\131f9093-a054-4333-895d-d21b2c641528\\frame-01-at-1.2s.png",
+        "time": 1.2,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793780670473,
+        "contentHash": "a8de3e1ca0c0e4285f89c4b4ed3111310608984eacdcefec3594de6e0aa10a2d",
+        "revision": null,
+        "inputFingerprint": "21b75b89f069603a1fb06d658e7b09978a17574fc9125c8e2af38c3f517d33a4",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "089918c0-a3a1-4f1d-9842-a686894431dc-2",
+        "image": "C:\\Users\\User\\March\\Work\\Web\\ikay-portfolio\\motion\\ikay-logo-tiktok\\.hyperframes\\artifacts\\snapshots\\131f9093-a054-4333-895d-d21b2c641528\\frame-02-at-2.45s.png",
+        "time": 2.45,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793780670474,
+        "contentHash": "4520249050ebc6068f8b983bd0aaaf20127981e194d12657a7e89f880bc0f662",
+        "revision": null,
+        "inputFingerprint": "21b75b89f069603a1fb06d658e7b09978a17574fc9125c8e2af38c3f517d33a4",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "089918c0-a3a1-4f1d-9842-a686894431dc-3",
+        "image": "C:\\Users\\User\\March\\Work\\Web\\ikay-portfolio\\motion\\ikay-logo-tiktok\\.hyperframes\\artifacts\\snapshots\\131f9093-a054-4333-895d-d21b2c641528\\frame-03-at-5.2s.png",
+        "time": 5.2,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793780670474,
+        "contentHash": "1c4956ce04928affb2b3a62002b71e2f3f221690f72281afec3f0e1b7b9a8367",
+        "revision": null,
+        "inputFingerprint": "21b75b89f069603a1fb06d658e7b09978a17574fc9125c8e2af38c3f517d33a4",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      },
+      {
+        "scope": "full",
+        "id": "089918c0-a3a1-4f1d-9842-a686894431dc-4",
+        "image": "C:\\Users\\User\\March\\Work\\Web\\ikay-portfolio\\motion\\ikay-logo-tiktok\\.hyperframes\\artifacts\\snapshots\\131f9093-a054-4333-895d-d21b2c641528\\frame-04-at-5.335s.png",
+        "time": 5.335,
+        "metadata": {
+          "width": 1080,
+          "height": 1920,
+          "zoomScale": 1,
+          "browserGpuMode": "auto",
+          "warnings": [],
+          "partial": false
+        },
+        "createdAt": 1793780670474,
+        "contentHash": "4638ec9b79357623e320ced42a19eabc40c958823c87b089d20c0b6132e67c0a",
+        "revision": null,
+        "inputFingerprint": "21b75b89f069603a1fb06d658e7b09978a17574fc9125c8e2af38c3f517d33a4",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "renders": {
+    "latest": {
+      "id": "000b7e87-5c16-4641-b73b-18180577e4e7",
+      "completedAt": 1793780745220,
+      "output": "C:\\Users\\User\\March\\Work\\Web\\ikay-portfolio\\motion\\ikay-logo-tiktok\\renders\\ikay-logo-reveal-tiktok.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

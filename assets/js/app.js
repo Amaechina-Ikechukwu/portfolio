@@ -2,8 +2,24 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     initBlueprintCorners();
+    initBrandMark();
     initContactForm();
 });
+
+// Play the IKAY mark intro on load, replay it on hover
+function initBrandMark() {
+    const brand = document.querySelector('.brand');
+    const mark = brand && brand.querySelector('.brand-mark');
+    if (!mark) return;
+
+    const play = () => {
+        mark.classList.remove('play');
+        void mark.offsetWidth;
+        mark.classList.add('play');
+    };
+    play();
+    brand.addEventListener('mouseenter', play);
+}
 
 // Registration-mark corners on every .blueprint frame
 function initBlueprintCorners() {
